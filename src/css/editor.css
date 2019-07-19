@@ -1,0 +1,33 @@
+@import './public.css';
+@import './iconfont.css';
+
+.editorTheme.default {}
+
+.editorTheme.default .editComponents {
+    width: 100%;
+    height: auto;
+    background: #999;
+    overflow: hidden;
+}
+
+.editorTheme.default .editIcon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    display: block;
+    color: #FFF;
+
+
+    /*无效代码 后期删除 begin*/
+    font-family: "Ooh-wee" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*无效代码 后期删除 end*/
+}
+
+.editorTheme.default .editIcon:before {
+    font-size: 26px;
+    cursor: pointer;
+}
